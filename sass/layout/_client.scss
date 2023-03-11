@@ -1,0 +1,40 @@
+.subject {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  & :not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.items__logo {
+  display: flex;
+}
+.items__logo-link {
+  display: flex;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border-color: var(--text-color);
+  }
+}
+
+.items__logo-list {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .items__logo-link:hover &,
+  .items__logo-link:focus & {
+    fill: var(--text-color);
+  }
+}
