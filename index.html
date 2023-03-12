@@ -38,7 +38,7 @@
           </ul>
         </nav>
         <button class="mobile-menu-btn" type="button">
-          <svg class="mobile-menu-btn_icon" width="40" height="40">
+          <svg class="mobile-menu-btn_icon js-open-menu" width="40" height="40">
             <use href="images/icons.svg#mobile_icon"></use>
           </svg>
         </button>
@@ -52,23 +52,23 @@
             >
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="tel:+380961111111"
+            <a class="nav__link" href="tel:+1 212-772-4150"
               ><svg class="nav__icon" width="15" height="12">
                 <use href="images\icons.svg#smartphone"></use></svg
-              >+380961111111</a
+              >+1 212-772-4150</a
             >
           </li>
         </ul>
       </div>
-      <div class="mobile-menu">
+      <div class="mobile-menu js-menu-container">
         <div class="container mobile-menu__container">
-          <button class="mobile-menu__close-btn">
+          <button class="mobile-menu__close-btn js-close-menu" type="button">
             <svg class="mobile-menu__close-icon" width="40" height="40">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
           <ul class="list mobile-menu__list" >
-            <li><a class="mobile-menu__list-item" href="">Студія</a></li>
+            <li><a class="mobile-menu__list-item mobile-menu__list-item--active" href="">Студія</a></li>
             <li><a class="mobile-menu__list-item" href="">Портфоліо</a></li>
             <li><a class="mobile-menu__list-item" href="">Контакти</a></li>
           </ul>
@@ -83,7 +83,7 @@
               </a>
             </li>
           </ul>
-          <ul class="list  mobile-menu__social">
+          <ul class="list mobile-menu__social">
             <li><a class="mobile-menu__social-item" href="">Instagram</a></li>
             <li><a class="mobile-menu__social-item" href="">Twitter</a></li>
             <li><a class="mobile-menu__social-item" href="">Facebook</a></li>
@@ -569,5 +569,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
