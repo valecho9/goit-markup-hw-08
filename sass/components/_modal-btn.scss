@@ -3,6 +3,7 @@
 
   .backdrop {
     position: fixed;
+    
     top: 0;
     left: 0;
     width: 100vw;
@@ -24,6 +25,7 @@
 .modal {
   position: absolute;
   padding: 40px;
+  
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -53,6 +55,12 @@
     position: relative;
     display: block;
     margin-top: 4px;
+  }
+  &__button-text {
+    font-weight: 700;
+    color: var(--accent-color);
+    align-items: center;
+    text-align: center;
   }
 }
 
@@ -151,7 +159,7 @@
 }
 .modal__text-checkbox {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   color: #757575;
   & a {
@@ -170,12 +178,7 @@
   display: block;
   margin: 0 auto;
   cursor: pointer;
-  &__button-text {
-    font-weight: 700;
-    color: var(--accent-color);
-    align-items: center;
-    text-align: center;
-  }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -230,6 +233,12 @@
       display: block;
       margin-top: 4px;
     }
+    &__button-text {
+      font-weight: 700;
+      color: var(--accent-color);
+      align-items: center;
+      text-align: center;
+    }
   }
   
   .modal__btn {
@@ -326,7 +335,7 @@
   }
   .modal__text-checkbox {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.71;
     color: #757575;
     & a {
@@ -345,12 +354,7 @@
     display: block;
     margin: 0 auto;
     cursor: pointer;
-    &__button-text {
-      font-weight: 700;
-      color: var(--accent-color);
-      align-items: center;
-      text-align: center;
-    }
+    
   }
 }
 @media screen and (min-width: 1200px) {
@@ -405,6 +409,12 @@
       display: block;
       margin-top: 4px;
     }
+    &__button-text {
+      font-weight: 700;
+      color: var(--accent-color);
+      align-items: center;
+      text-align: center;
+    }
   }
   
   .modal__btn {
@@ -520,12 +530,7 @@
     display: block;
     margin: 0 auto;
     cursor: pointer;
-    &__button-text {
-      font-weight: 700;
-      color: var(--accent-color);
-      align-items: center;
-      text-align: center;
-    }
+   
   }
 }
 
