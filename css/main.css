@@ -1222,10 +1222,6 @@ ul {
   }
 }
 @media screen and (min-width: 1200px) {
-  .hero {
-    background-color: #2f303a;
-    text-align: center;
-  }
   .container__hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-tablet img.jpg");
     min-height: 600px;
@@ -1242,32 +1238,10 @@ ul {
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
-    display: block;
-    color: var(--accent-color);
-    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
-    align-items: center;
-    text-transform: uppercase;
     padding-top: 200px;
-    margin: 0 auto;
     max-width: 696px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .hero__btn {
-    color: var(--accent-color);
-    background-color: var(--text-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-    border-radius: 4px;
-    width: 200px;
-    height: 50px;
-    margin-top: 30px;
-    align-items: center;
-    text-align: center;
   }
 }
 /*.hero {
@@ -1443,8 +1417,7 @@ ul {
   }
   .wrapper {
     display: flex;
-    justify-content: space-between;
-    flex-basis: calc((100% - 60px) / 3);
+    width: 370px;
   }
   .wrapper :not(:last-child) {
     margin-right: 30px;

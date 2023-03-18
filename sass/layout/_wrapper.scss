@@ -19,9 +19,9 @@
     margin-bottom: 50px;
   }
   .wrapper {
+    
     display: flex;
-    justify-content: space-between;
-    flex-basis: calc((100% - 2 * 30px) / 3);
+    width: 370px;
     & :not(:last-child) {
       margin-right: 30px;
     }
