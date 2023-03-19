@@ -53,13 +53,6 @@ ul {
   display: block;
 }
 
-.caption__section {
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 .list {
   list-style: none;
 }
@@ -1340,7 +1333,6 @@ ul {
   .box {
     flex-basis: calc((100% - 30px) / 2);
     width: 354px;
-    margin-right: 0px;
   }
   .box:nth-child(2n+1) {
     margin-right: 30px;
@@ -1417,9 +1409,8 @@ ul {
   }
   .wrapper {
     display: flex;
-    width: 370px;
   }
-  .wrapper :not(:last-child) {
+  .wrapper li :not(:last-child) {
     margin-right: 30px;
   }
   .wrapper__holder {
@@ -1470,6 +1461,13 @@ ul {
   }
 }
 */
+.caption__section {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 .section__works {
   background-color: #f5f4fa;
 }
@@ -1478,13 +1476,13 @@ ul {
 }
 
 .meta {
-  display: flex;
-  justify-content: space-between;
+  display: block;
 }
 
 .wrap {
   background-color: var(--accent-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 450px;
 }
 .wrap__aside {
   padding-top: 30px;
@@ -1504,6 +1502,75 @@ ul {
   line-height: 1.18;
 }
 
+@media screen and (min-width: 480px) {
+  .caption__section {
+    font-size: 20px;
+    line-height: 1.65;
+    margin-bottom: 30px;
+    width: 450px;
+  }
+  .wrap {
+    margin-bottom: 30px;
+  }
+  .wrap__aside {
+    padding-bottom: 24px;
+  }
+  .wrap__heading {
+    line-height: 1.12;
+  }
+  .wrap__tagline {
+    line-height: 1.12;
+  }
+}
+@media screen and (min-width: 768px) {
+  .caption__section {
+    font-size: 28px;
+    line-height: 1.14;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrap {
+    flex-basis: calc((100% - 30px) / 2);
+    margin-bottom: 30px;
+  }
+  .wrap:nth-child(2n+1) {
+    margin-right: 30px;
+  }
+  .wrap__aside {
+    padding-top: 30px;
+    padding-bottom: 24px;
+  }
+  .wrap__heading {
+    line-height: 1.12;
+  }
+  .wrap__tagline {
+    line-height: 1.12;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .caption__section {
+    font-size: 28px;
+    line-height: 1.14;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .wrap:not(:last-child) {
+    margin-right: 30px;
+  }
+  .wrap__aside {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
 .social__list-item {
   display: flex;
 }

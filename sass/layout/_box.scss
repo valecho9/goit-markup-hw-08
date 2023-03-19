@@ -54,10 +54,10 @@
   .box {
     flex-basis: calc((100% - 1 * 30px) / 2);
     width: 354px;
-    margin-right: 0px;
     &:nth-child(2n + 1) {
       margin-right: 30px;
     }
+   
   }
 }
 @media screen and (min-width: 1200px) {

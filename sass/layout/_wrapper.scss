@@ -19,10 +19,9 @@
     margin-bottom: 50px;
   }
   .wrapper {
-    
     display: flex;
-    width: 370px;
-    & :not(:last-child) {
+
+    & li :not(:last-child) {
       margin-right: 30px;
     }
     &__holder {
