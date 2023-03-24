@@ -20,12 +20,12 @@
   }
   .wrapper {
     display: flex;
-
     & li :not(:last-child) {
       margin-right: 30px;
     }
     &__holder {
       position: relative;
+      width: 370px;
     }
   }
 
