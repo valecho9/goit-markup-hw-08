@@ -54,9 +54,6 @@
 }
 
 .footer__aside {
-  margin: auto;
-  width: 206px;
-  height: 80px;
   margin-bottom: 60px;
 }
 .footer__subject {
@@ -165,9 +162,7 @@
     height: 604px;
     padding-bottom: 60px;
   }
-  .container {
-    margin: auto;
-  }
+
   .footer-box__email {
     width: 450px;
     height: 50px;
@@ -175,34 +170,25 @@
 }
 
 @media screen and (min-width: 768px) {
- 
-  .footer .container {
-    display: inline-block;
+  .footer {
+    display: flex;
   }
-  .footer__logo-link {
-    margin-left: 115px;
-    width: 154px;
-    margin-right: 0;
-  }
-  .footer-box {
-    width: 450px;
-    height: 156px;
-    display: block;
-    margin: auto;
-    margin-bottom: 0;
-    margin-right: 152px;
+
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 89px;
+    padding-left: 76px;
   }
   .footer__aside {
-    margin: auto;
-    margin-right: 89px;
-    margin-top: 65px;
+   
   }
-  .footer__contact-address {
-    margin-left: 76px;
-    display: inline-block;
+  .footer-box {
+   padding-bottom: 0;
+  }
 
-    width: 232px;
-    height: 79px;
+  .footer__contact-address {
+    display: inline-block;
   }
 }
 
