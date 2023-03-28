@@ -216,7 +216,6 @@
     &:focus {
       text-decoration: underline var(--text-color);
     }
-
   }
 
   .menu__item--active {
@@ -247,19 +246,19 @@
     display: flex;
     align-items: center;
     &__link {
-   display: flex;
-    align-items: center;
-    margin-right: 40px;
-    text-decoration: none;
-  }
-  &__link:hover,
-  &__link:focus {
-    color: var(--text-color);
-  }
-  &__item {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-  }
+      display: flex;
+      align-items: center;
+      margin-right: 40px;
+      text-decoration: none;
+    }
+    &__link:hover,
+    &__link:focus {
+      color: var(--text-color);
+    }
+    &__item {
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+    }
   }
 }
