@@ -168,24 +168,25 @@
   .nav {
     display: block;
     margin-left: auto;
-  }
-  .nav__link {
-    color: var(--main-text-color);
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.16;
-    display: inline-flex;
-    text-decoration: none;
-  }
-  .nav__item {
-    margin-top: 8px;
-  }
-  .nav__icon {
-    fill: currentColor;
-    margin-right: 8px;
+    &__link {
+      color: var(--main-text-color);
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 1.16;
+      display: inline-flex;
+      text-decoration: none;
+    }
+    &__item {
+      margin-top: 8px;
+    }
+    &__icon {
+      fill: currentColor;
+      margin-right: 8px;
 
-    align-items: center;
+      align-items: center;
+    }
   }
+
   .mobile-menu-btn {
     display: none;
   }

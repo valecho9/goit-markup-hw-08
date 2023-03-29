@@ -176,21 +176,19 @@
   .modal {
     width: 450px;
     height: 609px;
-     &__text-checkbox {
-    font-size: 12px;
-  }
+    &__text-checkbox {
+      font-size: 12px;
+    }
 
-  &__form-message {
-    height: 120px;
-  }
+    &__form-message {
+      height: 120px;
+    }
 
-  &__form-checkbox {
-    margin-top: 10px;
-    margin-bottom: 30px;
+    &__form-checkbox {
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
   }
-  }
-
- 
 }
 @media screen and (min-width: 768px) {
 }
@@ -199,11 +197,10 @@
     width: 528px;
     height: 581px;
     &__text {
-    line-height: 1.15;
+      line-height: 1.15;
+    }
+    &__text-checkbox {
+      font-size: 14px;
+    }
   }
-  &__text-checkbox {
-    font-size: 14px;
-  }
-  }
-  
 }
