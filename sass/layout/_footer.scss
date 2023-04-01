@@ -11,6 +11,7 @@
   display: block;
   background-color: #2f303a;
   padding-top: 60px;
+  padding-bottom: 30px;
   width: 100vw;
 
   &__logo-link {
@@ -56,7 +57,7 @@
     justify-content: center;
   }
   &__aside {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
   &__subject {
     color: var(--accent-color);
@@ -82,7 +83,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     width: 44px;
     height: 44px;
     background: rgba(255, 255, 255, 0.1);
@@ -120,7 +120,7 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: transparent;
     width: 270px;
-    height: 30px;
+    height: 50px;
     border-radius: 4px;
     padding-left: 16px;
     padding-top: 15px;
@@ -129,7 +129,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   &__button {
@@ -143,6 +143,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   &__button-text {
     font-weight: 700;
@@ -162,11 +163,15 @@
   .footer {
     padding-bottom: 60px;
   }
-
+  .footer__aside {
+    margin-bottom: 60px;
+  }
   .footer-box__email {
     width: 450px;
     height: 50px;
+    margin-bottom: 20px;
   }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -202,7 +207,9 @@
   .footer-wrapper {
     padding: 0;
   }
-
+  .footer__subject {
+    justify-content: flex-start;
+  }
   .footer__contact-address {
     margin: auto;
   }
